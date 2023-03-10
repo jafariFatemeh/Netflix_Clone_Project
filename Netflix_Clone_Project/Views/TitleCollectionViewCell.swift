@@ -1,8 +1,8 @@
 //
-//  TitleCollectionViewCell.swift
-//  Netflix Clone
+//  SceneDelegate.swift
+//  Netflix_Clone_Project
 //
-//  Created by Amr Hossam on 16/12/2021.
+//  Created by Parisa Jafari on 10/03/2023.
 //
 
 import UIKit

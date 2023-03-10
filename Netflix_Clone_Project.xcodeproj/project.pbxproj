@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		69D176F229BB2F54002C33B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D176F129BB2F54002C33B7 /* AppDelegate.swift */; };
 		69D176F429BB2F54002C33B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D176F329BB2F54002C33B7 /* SceneDelegate.swift */; };
-		69D176F629BB2F54002C33B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D176F529BB2F54002C33B7 /* ViewController.swift */; };
-		69D176F929BB2F54002C33B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D176F729BB2F54002C33B7 /* Main.storyboard */; };
 		69D176FB29BB2F56002C33B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D176FA29BB2F56002C33B7 /* Assets.xcassets */; };
 		69D176FE29BB2F56002C33B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D176FC29BB2F56002C33B7 /* LaunchScreen.storyboard */; };
+		69D1770D29BB3114002C33B7 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1770B29BB3114002C33B7 /* APICaller.swift */; };
+		69D1770E29BB3114002C33B7 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1770C29BB3114002C33B7 /* DataPersistenceManager.swift */; };
+		69D1771029BB311F002C33B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1770F29BB311F002C33B7 /* Extensions.swift */; };
+		69D1771329BB312B002C33B7 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771129BB312B002C33B7 /* Title.swift */; };
+		69D1771429BB312B002C33B7 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771229BB312B002C33B7 /* YoutubeSearchResponse.swift */; };
+		69D1771E29BB3138002C33B7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771629BB3138002C33B7 /* SearchViewController.swift */; };
+		69D1771F29BB3138002C33B7 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771729BB3138002C33B7 /* UpcomingViewController.swift */; };
+		69D1772029BB3138002C33B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771829BB3138002C33B7 /* HomeViewController.swift */; };
+		69D1772129BB3138002C33B7 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771929BB3138002C33B7 /* DownloadsViewController.swift */; };
+		69D1772229BB3138002C33B7 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771A29BB3138002C33B7 /* MainTabBarViewController.swift */; };
+		69D1772329BB3138002C33B7 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771C29BB3138002C33B7 /* TitlePreviewViewController.swift */; };
+		69D1772429BB3138002C33B7 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1771D29BB3138002C33B7 /* SearchResultsViewController.swift */; };
+		69D1772729BB3141002C33B7 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1772529BB3141002C33B7 /* TitlePreviewViewModel.swift */; };
+		69D1772829BB3141002C33B7 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1772629BB3141002C33B7 /* TitleViewModel.swift */; };
+		69D1772D29BB314A002C33B7 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1772929BB3149002C33B7 /* TitleCollectionViewCell.swift */; };
+		69D1772E29BB314A002C33B7 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1772A29BB3149002C33B7 /* TitleTableViewCell.swift */; };
+		69D1772F29BB314A002C33B7 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1772B29BB3149002C33B7 /* CollectionViewTableViewCell.swift */; };
+		69D1773029BB314A002C33B7 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1772C29BB3149002C33B7 /* HeroHeaderUIView.swift */; };
+		69D1773329BB3169002C33B7 /* NetflixCloneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69D1773129BB3169002C33B7 /* NetflixCloneModel.xcdatamodeld */; };
+		69D1773729BB34F6002C33B7 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 69D1773629BB34F6002C33B7 /* SDWebImage */; };
+		69D1773929BB34F6002C33B7 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 69D1773829BB34F6002C33B7 /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69D176EE29BB2F54002C33B7 /* Netflix_Clone_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix_Clone_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D176F129BB2F54002C33B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69D176F329BB2F54002C33B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69D176F529BB2F54002C33B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69D176F829BB2F54002C33B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69D176FA29BB2F56002C33B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69D176FD29BB2F56002C33B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69D176FF29BB2F56002C33B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D1770B29BB3114002C33B7 /* APICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		69D1770C29BB3114002C33B7 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
+		69D1770F29BB311F002C33B7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		69D1771129BB312B002C33B7 /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		69D1771229BB312B002C33B7 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		69D1771629BB3138002C33B7 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		69D1771729BB3138002C33B7 /* UpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		69D1771829BB3138002C33B7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		69D1771929BB3138002C33B7 /* DownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		69D1771A29BB3138002C33B7 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		69D1771C29BB3138002C33B7 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		69D1771D29BB3138002C33B7 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		69D1772529BB3141002C33B7 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		69D1772629BB3141002C33B7 /* TitleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		69D1772929BB3149002C33B7 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		69D1772A29BB3149002C33B7 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		69D1772B29BB3149002C33B7 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		69D1772C29BB3149002C33B7 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		69D1773229BB3169002C33B7 /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D1773929BB34F6002C33B7 /* SDWebImageMapKit in Frameworks */,
+				69D1773729BB34F6002C33B7 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +94,96 @@
 		69D176F029BB2F54002C33B7 /* Netflix_Clone_Project */ = {
 			isa = PBXGroup;
 			children = (
-				69D176F129BB2F54002C33B7 /* AppDelegate.swift */,
-				69D176F329BB2F54002C33B7 /* SceneDelegate.swift */,
-				69D176F529BB2F54002C33B7 /* ViewController.swift */,
-				69D176F729BB2F54002C33B7 /* Main.storyboard */,
+				69D1770529BB304C002C33B7 /* Data_Managers */,
+				69D1770729BB307A002C33B7 /* Models */,
+				69D1770629BB3073002C33B7 /* Resources */,
+				69D1770A29BB3097002C33B7 /* Controllers */,
+				69D1770929BB308C002C33B7 /* ViewModels */,
+				69D1770829BB3087002C33B7 /* Views */,
 				69D176FA29BB2F56002C33B7 /* Assets.xcassets */,
 				69D176FC29BB2F56002C33B7 /* LaunchScreen.storyboard */,
 				69D176FF29BB2F56002C33B7 /* Info.plist */,
+				69D1773129BB3169002C33B7 /* NetflixCloneModel.xcdatamodeld */,
 			);
 			path = Netflix_Clone_Project;
+			sourceTree = "<group>";
+		};
+		69D1770529BB304C002C33B7 /* Data_Managers */ = {
+			isa = PBXGroup;
+			children = (
+				69D1770B29BB3114002C33B7 /* APICaller.swift */,
+				69D1770C29BB3114002C33B7 /* DataPersistenceManager.swift */,
+			);
+			path = Data_Managers;
+			sourceTree = "<group>";
+		};
+		69D1770629BB3073002C33B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69D1770F29BB311F002C33B7 /* Extensions.swift */,
+				69D176F129BB2F54002C33B7 /* AppDelegate.swift */,
+				69D176F329BB2F54002C33B7 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69D1770729BB307A002C33B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69D1771129BB312B002C33B7 /* Title.swift */,
+				69D1771229BB312B002C33B7 /* YoutubeSearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69D1770829BB3087002C33B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69D1772B29BB3149002C33B7 /* CollectionViewTableViewCell.swift */,
+				69D1772C29BB3149002C33B7 /* HeroHeaderUIView.swift */,
+				69D1772929BB3149002C33B7 /* TitleCollectionViewCell.swift */,
+				69D1772A29BB3149002C33B7 /* TitleTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69D1770929BB308C002C33B7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				69D1772529BB3141002C33B7 /* TitlePreviewViewModel.swift */,
+				69D1772629BB3141002C33B7 /* TitleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69D1770A29BB3097002C33B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69D1771529BB3138002C33B7 /* Core */,
+				69D1771B29BB3138002C33B7 /* General */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		69D1771529BB3138002C33B7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				69D1771629BB3138002C33B7 /* SearchViewController.swift */,
+				69D1771729BB3138002C33B7 /* UpcomingViewController.swift */,
+				69D1771829BB3138002C33B7 /* HomeViewController.swift */,
+				69D1771929BB3138002C33B7 /* DownloadsViewController.swift */,
+				69D1771A29BB3138002C33B7 /* MainTabBarViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		69D1771B29BB3138002C33B7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				69D1771C29BB3138002C33B7 /* TitlePreviewViewController.swift */,
+				69D1771D29BB3138002C33B7 /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +202,10 @@
 			dependencies = (
 			);
 			name = Netflix_Clone_Project;
+			packageProductDependencies = (
+				69D1773629BB34F6002C33B7 /* SDWebImage */,
+				69D1773829BB34F6002C33B7 /* SDWebImageMapKit */,
+			);
 			productName = Netflix_Clone_Project;
 			productReference = 69D176EE29BB2F54002C33B7 /* Netflix_Clone_Project.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 69D176E529BB2F54002C33B7;
+			packageReferences = (
+				69D1773529BB34F6002C33B7 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 69D176EF29BB2F54002C33B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +253,6 @@
 			files = (
 				69D176FE29BB2F56002C33B7 /* LaunchScreen.storyboard in Resources */,
 				69D176FB29BB2F56002C33B7 /* Assets.xcassets in Resources */,
-				69D176F929BB2F54002C33B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +263,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D176F629BB2F54002C33B7 /* ViewController.swift in Sources */,
+				69D1771429BB312B002C33B7 /* YoutubeSearchResponse.swift in Sources */,
+				69D1772329BB3138002C33B7 /* TitlePreviewViewController.swift in Sources */,
+				69D1773029BB314A002C33B7 /* HeroHeaderUIView.swift in Sources */,
+				69D1772129BB3138002C33B7 /* DownloadsViewController.swift in Sources */,
+				69D1772429BB3138002C33B7 /* SearchResultsViewController.swift in Sources */,
+				69D1771029BB311F002C33B7 /* Extensions.swift in Sources */,
+				69D1772729BB3141002C33B7 /* TitlePreviewViewModel.swift in Sources */,
+				69D1771E29BB3138002C33B7 /* SearchViewController.swift in Sources */,
+				69D1771329BB312B002C33B7 /* Title.swift in Sources */,
+				69D1772829BB3141002C33B7 /* TitleViewModel.swift in Sources */,
+				69D1772F29BB314A002C33B7 /* CollectionViewTableViewCell.swift in Sources */,
 				69D176F229BB2F54002C33B7 /* AppDelegate.swift in Sources */,
+				69D1772229BB3138002C33B7 /* MainTabBarViewController.swift in Sources */,
 				69D176F429BB2F54002C33B7 /* SceneDelegate.swift in Sources */,
+				69D1772029BB3138002C33B7 /* HomeViewController.swift in Sources */,
+				69D1773329BB3169002C33B7 /* NetflixCloneModel.xcdatamodeld in Sources */,
+				69D1770D29BB3114002C33B7 /* APICaller.swift in Sources */,
+				69D1772E29BB314A002C33B7 /* TitleTableViewCell.swift in Sources */,
+				69D1772D29BB314A002C33B7 /* TitleCollectionViewCell.swift in Sources */,
+				69D1771F29BB3138002C33B7 /* UpcomingViewController.swift in Sources */,
+				69D1770E29BB3114002C33B7 /* DataPersistenceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		69D176F729BB2F54002C33B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69D176F829BB2F54002C33B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		69D176FC29BB2F56002C33B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +427,6 @@
 				INFOPLIST_FILE = Netflix_Clone_Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +454,6 @@
 				INFOPLIST_FILE = Netflix_Clone_Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +491,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		69D1773529BB34F6002C33B7 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		69D1773629BB34F6002C33B7 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69D1773529BB34F6002C33B7 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		69D1773829BB34F6002C33B7 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69D1773529BB34F6002C33B7 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		69D1773129BB3169002C33B7 /* NetflixCloneModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69D1773229BB3169002C33B7 /* NetflixCloneModel.xcdatamodel */,
+			);
+			currentVersion = 69D1773229BB3169002C33B7 /* NetflixCloneModel.xcdatamodel */;
+			path = NetflixCloneModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 69D176E629BB2F54002C33B7 /* Project object */;
 }
